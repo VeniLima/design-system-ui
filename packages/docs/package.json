@@ -8,6 +8,7 @@
     "dev": "start-storybook -p 6006",
     "build": "build-storybook",
     "storybook": "start-storybook -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
     "build-storybook": "build-storybook"
   },
   "keywords": [],

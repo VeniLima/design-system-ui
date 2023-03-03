@@ -6,8 +6,8 @@ import {
   lineHeights,
   radii,
   space,
-} from "@ignite-ui/tokens";
-import { createStitches, defaultThemeMap } from "@stitches/react";
+} from '@ignite-ui/tokens'
+import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
   styled,
@@ -21,16 +21,17 @@ export const {
 } = createStitches({
   themeMap: {
     ...defaultThemeMap,
-    height: "space",
-    width: "space",
+    height: 'space',
+    width: 'space',
   },
+
   theme: {
-    colors: colors,
-    fontSizes: fontSizes,
-    fontWeights: fontWeights,
-    fonts: fonts,
-    lineHeights: lineHeights,
-    radii: radii,
-    space: space,
+    colors,
+    fontSizes,
+    fontWeights,
+    fonts,
+    lineHeights,
+    radii,
+    space,
   },
-});
+})
